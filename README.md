@@ -21,7 +21,7 @@ git clone https://github.com/Whiskers-Color-Scheme/alacritty ~/.config/alacritty
 - Add the import at the beggining of the alacritty config file. Replace {theme} with "panther" or "tiger" accordingly:
 ```
 import = [
-    "~/.config/alacritty/themes/whiskers/{theme}.toml"
+    "~/.config/alacritty/themes/whiskers/whiskers_{theme}.toml"
 ]
 ```
 
